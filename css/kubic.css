@@ -1,0 +1,42 @@
+body { background: black !important; }
+
+.main-title {
+  color: white;
+  margin-bottom: 100px;
+}
+
+.artist-photo img {
+  border-radius: 50%;
+  width: 70%;
+}
+
+.artist-photo:hover img{
+  opacity: 0.5;
+}
+
+.artist-photo:hover .artist-name {
+  opacity: 1;
+}
+
+.artist-name {
+  opacity: 0;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: white;
+  font-size: 16pt;
+  padding: 5px;
+}
+
+footer {
+  margin-top: 100px;
+}
