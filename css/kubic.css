@@ -1,5 +1,9 @@
 body { background: white !important; }
 
+.kubic-content {
+  padding-top: 50px;
+}
+
 .main-title {
   color: black;
   margin-bottom: 100px;
