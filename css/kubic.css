@@ -1,7 +1,7 @@
-body { background: black !important; }
+body { background: white !important; }
 
 .main-title {
-  color: white;
+  color: black;
   margin-bottom: 100px;
 }
 
@@ -20,9 +20,9 @@ body { background: black !important; }
 
 .artist-name {
   opacity: 0;
-  color: white;
+  color: black;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -32,9 +32,13 @@ body { background: black !important; }
 }
 
 .social-links a {
-  color: white;
+  color: black;
   font-size: 16pt;
   padding: 5px;
+}
+
+.social-links a:hover {
+  color: #777777;
 }
 
 footer {
